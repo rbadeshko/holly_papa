@@ -4,5 +4,5 @@ decodeMorse = (morseCode) => {
         return MORSE_CODE[item2] //Every Letter
       }).join('')
     }).join(" ");
-  console.log(letter2);   
+  //console.log(letter2);   
   }
