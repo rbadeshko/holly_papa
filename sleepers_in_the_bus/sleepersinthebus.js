@@ -1,13 +1,3 @@
 const number = (busStops) => {
-    let summ = 0;
-    busStops.forEach((e, i) => {
-      e.forEach((item, j) => {
-        if (j == 0) {
-          summ += item;
-        } else {
-          summ -= item;
-        }
-      });
-    });
-    return summ;
+    return busStops.reduce((top, arr) => top + arr[0] - arr[1], 0);
   };
