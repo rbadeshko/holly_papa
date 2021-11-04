@@ -1,5 +1,6 @@
 //5kyu
 const humanReadable = (sec) => {
+    /*
     let h, m, s;
     if (sec / 3600 >= 1) {
       if (Math.floor(sec / 3600) > 99) {
@@ -20,4 +21,12 @@ const humanReadable = (sec) => {
       m.toString().padStart(2, 0) +
       ":" +
       s.toString().padStart(2, 0);
-  };
+    */
+   // new perfect code
+
+    let h = parseInt(sec / 3600).toString().padStart(2, 0);
+    let m = parseInt((sec / 60) % 60).toString().padStart(2, 0);
+    let s = parseInt(sec % 60).toString().padStart(2, 0);
+    
+    return output = h + ":" + m + ":" + s;
+};
