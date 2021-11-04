@@ -1,10 +1,6 @@
 //5kyu
 const humanReadable = (sec) => {
-    const pad = () => {
-      this.toString().padStart(2, 0);
-    };
     let h, m, s;
-    //console.log(sec / 3600);
     if (sec / 3600 >= 1) {
       if (Math.floor(sec / 3600) > 99) {
         h = 99;
