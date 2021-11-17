@@ -1,9 +1,9 @@
 // Declare the myGlobal variable below this line
-let myGlobal = 10;
+let myGlobal =
 
 function fun1() {
-    // Assign 5 to myGlobal Here
-    myGlobal = 5; // Global variable
+    // Assign 5 to oopsGlobal Here
+  
   }
   
   // Only change code above this line
