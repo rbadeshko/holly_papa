@@ -1,3 +1,4 @@
+//l8
 const sumTwoSmallestNumbers = (numbers) => {
     numbers.sort(function (a, b) {
      return a - b;
