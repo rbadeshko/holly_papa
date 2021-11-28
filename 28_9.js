@@ -4,7 +4,6 @@ function checkObj(obj, checkProp) {
       //console.log(obj.hasOwnProperty(checkProp))
        return "Not Found";
     }
-    //console.log(obj) 
     //console.log(checkProp)
     console.log(obj[checkProp])
     return obj.[checkProp];
