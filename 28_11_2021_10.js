@@ -19,6 +19,5 @@ const myMusic = [
         "8T",
         "LP"
       ]
-  
     }
   ];
