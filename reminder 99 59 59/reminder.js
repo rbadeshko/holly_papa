@@ -30,3 +30,5 @@ const humanReadable = (sec) => {
     
     return output = h + ":" + m + ":" + s;
 };
+4 years, 68 days, 3 hours and 4 minutes
+4 years, 68 days and 4 minutes
